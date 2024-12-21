@@ -21,4 +21,4 @@ Before using this project, ensure you have the following:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/firebase-login-auth.git
+https://github.com/KabiththananParan/Login-Authentication.git
