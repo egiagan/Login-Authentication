@@ -1,18 +1,10 @@
+// firebase.js
+
 // Import the necessary Firebase SDKs
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
 import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
-
-// Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyD6eflxymNdc6sF0MjvZGXv7q6VsBXyeVA",
-  authDomain: "login-auth-ab367.firebaseapp.com",
-  projectId: "login-auth-ab367",
-  storageBucket: "login-auth-ab367.firebasestorage.app",
-  messagingSenderId: "583190939607",
-  appId: "1:583190939607:web:759c9ef2c2e9d58003ed92",
-  measurementId: "G-MM95WFYCWF"
-};
+import { firebaseConfig } from './firebase-config.js';  // Import Firebase config
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
