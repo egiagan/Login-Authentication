@@ -4,7 +4,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js";
 import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js";
-import { firebaseConfig } from './firebase-config.js';  // Import Firebase config
+import { firebaseConfig } from 'https://rawcdn.githack.com/egiagan/agan/refs/heads/master/firebase.js';  // Import Firebase config
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
